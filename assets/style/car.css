@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    top:200px;
+    border:  2px solid grey;
+    height: 80%;
+    width: 100%;
+}
+.car{
+    height: 100px;
+    width: 260px;
+}
+.car img{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ietm{
+    height: 20px;
+    width: 100px;
+    background-color: black;
+}
+
+@keyframes car{
+
+}

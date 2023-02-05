@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #0c192c;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.bubbles{
+    position: relative;
+    display: flex;
+}
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: -1px 3px 28px 21px rgba(12,171,228,0.75);
+    -webkit-box-shadow: -1px 3px 28px 21px rgba(12,171,228,0.75);
+    -moz-box-shadow: -1px 3px 28px 21px rgba(12,171,228,0.75);
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+.bubbles span:nth-child(even){
+    background: #e21199;
+    -webkit-box-shadow: -1px 3px 28px 21px rgba(179, 38, 163, 0.75);
+    -moz-box-shadow: -1px 3px 28px 21px rgba(179, 38, 163, 0.75);
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
