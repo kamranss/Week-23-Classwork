@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(185, 179, 179);
+}   
+
+body{
+    height: 100vh;
+}
+
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-title{
+    color: rgb(16, 104, 220);
+    font-size: small;
+}
+.card_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.card_footer_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.card_footer_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.card_footer_name{
+
+}
+
+.icon{
+    top: 180px;
+}

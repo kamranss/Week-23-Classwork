@@ -50,21 +50,22 @@
         top: 40px;
         
     }
-    50%{
-        left: 2000px;
+    25%{
         top: 40px;
-        
+        left: 2000px;     
     }
 
-    51%{
+    50%{
         left: 2000px;
         top: 360px; 
+    }
+    75%{
+        top: 360px;
         transform: rotateY(180deg);
+        left: 2000px;
     }
     100%{
-        top: 360px;
-        left: 2000px;
-        transform: rotateY(180deg);
-        left: -400px;
+        left: -200px;
+        top: 40px;
     }
 }
